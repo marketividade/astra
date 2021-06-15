@@ -7,7 +7,8 @@ if (window.location.pathname == '/') {
 
 } else {
   // Other page
-  console.log("the page is: " + window.location.pathname);
+ styleSpecificForOtherThanHome()
+ console.log("the page is: " + window.location.pathname);
 }
 
 function styleSpecificForHome() {
