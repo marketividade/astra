@@ -1,3 +1,6 @@
+
+  console.log("astra-fixer.js is running");
+
 function setDate(element, value, sum) {
 	//if (isValidDate(value)) {
 	jQuery(element).val(new Date(calculateTime(value) + sum).toLocaleDateString('pt-br'));
