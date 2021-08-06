@@ -3,6 +3,9 @@
 //listeners to improve scrolling performance(Lighthouse Report)
 //https://stackoverflow.com/questions/60357083/does-not-use-passive-listeners-to-improve-scrolling-performance-lighthouse-repo
 
+  console.log("astra-fixer.js is running");
+
+
 		jQuery.event.special.touchstart = {
 			setup: function(_, ns, handle) {
 				this.addEventListener("touchstart", handle, {
