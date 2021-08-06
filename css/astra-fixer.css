@@ -1,0 +1,22 @@
+/*
+here we a have a bug fixing for ASTRA Theme: margin-right 0, the default 
+of the theme for the last child of "social wrap" widget, is invalid. 
+here we change it for an acceptable value, 0px
+*/
+.ast-footer-social-wrap .ast-builder-social-element:last-child{
+    margin-right:0px !important;
+}
+/*
+here we a have another bug fixing for ASTRA Theme: recent posts 
+links are not finger chargeble by default
+*/
+.widget_recent_entries ul li  {
+  margin-top: 1em;
+  line-height: 1.5em;
+}
+
+
+/*removes the Astra Container´s default board*/
+.fl-row-content-wrap {
+    padding: 0px;
+}
